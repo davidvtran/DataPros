@@ -20,11 +20,11 @@ def main():
 		for row in reader:
 			list_of_dicts.append(row) #copy data into memory
 
+	number_of_rows = len(list_of_dicts) #used to calculate progress (to be implemented)
+
 	#Do some processing of data here
 	process_country(list_of_dicts)
-
-
-
+	process_collector(list_of_dicts)
 
 
 
@@ -36,7 +36,9 @@ def process_country(list_of_dicts): #standardize notation for countries
 	countries = get_countries()
 	print countries
 	for row in list_of_dicts:
-		
+		if row['Country'] == '' or row['Country'] == None:
+				continue
+
 		#manual correction
 		if row['Country'].upper() == 'USA':
 			row['Country'] = 'United States'
@@ -47,17 +49,30 @@ def process_country(list_of_dicts): #standardize notation for countries
 			continue
 
 
-
 		#automatic correction
 		for country in countries:
-			sm = StringMatcher(None, country, row['Country'])
+			sm = StringMatcher(None, country.lower(), row['Country'].lower())
 			distance = sm.distance()
-			#print distance
 			if distance < 3:
 				row['Country'] = country
-				#print country
 				continue
 
+def process_collector(list_of_dicts):
+	collectors = get_collectors()
+	print collectors
+	for row in list_of_dicts:
+		for collector in collectors:
+			if row['Collector'] == '' or row['Collector'] == None:
+				continue
+
+
+
+			#automatic correction
+			sm = StringMatcher(None,collector.lower(),row['Collector'].lower())
+			distance = sm.distance()
+			if distance < 4:
+				row['Collector'] = collector
+				continue
 
 def get_keys():
 	with open('calbug_short.csv', 'rwb') as file_obj:
@@ -74,9 +89,13 @@ def get_countries():
 				list_of_countries.append(country.strip())
 	return list_of_countries
 
-
-
-
+def get_collectors():
+	list_of_collectors = list()
+	with open('collectors.tsv', 'rb') as collectors:
+		for collector in collectors:
+			if collector != '':
+				list_of_collectors.append(collector.strip())
+	return list_of_collectors
 
 def write_csv(fieldnames, data):
 	with open("processed_calbug.csv", 'wb') as out_file:
@@ -84,10 +103,6 @@ def write_csv(fieldnames, data):
 		writer.writeheader()
 		for row in data:
 			writer.writerow(row)
-
-
-
-
 
 
 
