@@ -5,6 +5,19 @@ from warnings import warn
 #Dependencies:
 #Levenshtein - for fast string edit distance calculation in C - https://pypi.python.org/pypi/python-Levenshtein/0.11.2
 
+#To Do - High Level
+#Cleanse all other columns of typos / inconsistencies
+#Perform voting to generate consensus on each element
+	#weight by accuracy and re-run
+#Process images -> extract strings and compare them to vocabulary lists to see where to put which text where
+
+
+#To Do - Low Level
+#Idea? - May be better/worse in some cases - Replace .distance() < X with .ratio() > Y
+#Progress bar/calculation?
+#Isolate cases that don't match correction
+
+
 
 def main():
 	
@@ -174,5 +187,15 @@ class StringMatcher:
         return self._distance
 
 if __name__ == "__main__":
+	# sm = StringMatcher(None, 'United States', 'United States of America')
+	# print sm.ratio()
+	# sm = StringMatcher(None, 'United States', 'United States')
+	# print sm.ratio()
+	# sm = StringMatcher(None, 'United States', 'united states')
+	# print sm.ratio()
+	# sm = StringMatcher(None, 'United States', 'United States Minor Outlying Islands')
+	# print sm.ratio()
+	# sm = StringMatcher(None, 'Slovakia', 'Slovenia')
+	# print sm.ratio()
 	main()
 
