@@ -1,0 +1,958 @@
+
+<html>
+<head>
+<title>Essig Museum of Entomology Collections</title>
+<script language="JavaScript">
+function openNewWindow(url) {
+NewWindow=window.open(url, "awindow", "location,status,resizable,scrollbars,menubar,toolbar,width=700,height=520");
+}
+</script>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-47963151-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+<style type="text/css">
+p, td, th, body {font-family: arial, verdana, helvetica, sans-serif;}
+p, td, th, body {font-size: 12px;}
+a.nounderline {
+    text-decoration: none;  /* this removes underlining */
+    color:  white;
+    outline: none;
+    }
+a.subtle_link {
+    text-decoration: none;  /* this removes underlining */
+    font-size: 10px;
+    outline: none;
+    }
+</style>
+</head>
+<body bgcolor=white>
+<!-- blue color=669ACC  gray color=gray -->
+<center>
+  <table cellpadding=0 cellspacing=0 border=0 width="90%">
+    <tr>
+      <td bgcolor=#669ACC width=5%><img src="/graphics/essig_logo_sm.jpg" width=60></td>
+      <td bgcolor=white valign=top>
+      <table cellpadding=5 border=0>
+        <tr>
+          <td><font face='Helvetica,Arial,Verdana' size="+2">
+	      Essig Museum of Entomology Collections</font>
+          </td>
+        </tr>
+       </table>
+      </td>
+    </tr>
+    <tr bgcolor="gray">
+      <td width=100% colspan=2 valign=center>&nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td bgcolor=#669ACC valign=top width=5%>&nbsp;</td>
+      <td valign=top>
+      <center><small><i>
+      Back to: <a href=http://essigdb.berkeley.edu/>Essig Museum of Entomology Collections</a>
+      </small></i></center><p>
+<!-- start of body ---><b>Number of matches</b>: 124<br>
+<p><small><b>Query:</b> SELECT * FROM eme_label_images WHERE databased = "1" and CatalogNumberNumeric <= 720000 and CatalogNumberNumeric >= 718000  ORDER BY filename</small><br><p>
+<table border><tr><th><small>Collection ID / Specimen Number</th>
+<th><small>Scientific Name</th>
+<th><small>File Name</th>
+<th><small>Date Uploaded</th>
+<th><small>Databased</th>
+<tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718016&one=T&OK2SHOWPRIVATE=>EMEC718016</a></small></td>
+<td>Agrius cingulata  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718016 Agrius cingulata.jpg');">EMEC718016 Agrius cingulata.jpg</a><br></td>
+<td align=center>2013-06-28<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718016>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718021&one=T&OK2SHOWPRIVATE=>EMEC718021</a></small></td>
+<td>Agrius cingulata  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718021 Agrius cingulata.jpg');">EMEC718021 Agrius cingulata.jpg</a><br></td>
+<td align=center>2013-06-28<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718021>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718047&one=T&OK2SHOWPRIVATE=>EMEC718047</a></small></td>
+<td>Agrius cingulata  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718047 Agrius cingulata.jpg');">EMEC718047 Agrius cingulata.jpg</a><br></td>
+<td align=center>2013-06-28<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718047>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718048&one=T&OK2SHOWPRIVATE=>EMEC718048</a></small></td>
+<td>Agrius convolvuli  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718048 Agrius convolvuli.jpg');">EMEC718048 Agrius convolvuli.jpg</a><br></td>
+<td align=center>2013-06-28<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718048>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718064&one=T&OK2SHOWPRIVATE=>EMEC718064</a></small></td>
+<td>Cocytius antaeus  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718064 Cocytius antaeus.jpg');">EMEC718064 Cocytius antaeus.jpg</a><br></td>
+<td align=center>2013-06-28<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718064>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718066&one=T&OK2SHOWPRIVATE=>EMEC718066</a></small></td>
+<td>Cocytius antaeus  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718066 Cocytius antaeus.jpg');">EMEC718066 Cocytius antaeus.jpg</a><br></td>
+<td align=center>2013-06-28<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718066>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718070&one=T&OK2SHOWPRIVATE=>EMEC718070</a></small></td>
+<td>Cocytius antaeus  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718070 Cocytius antaeus.jpg');">EMEC718070 Cocytius antaeus.jpg</a><br></td>
+<td align=center>2013-06-28<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718070>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718073&one=T&OK2SHOWPRIVATE=>EMEC718073</a></small></td>
+<td>Cocytius duponchel  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718073 Cocytius duponchel.jpg');">EMEC718073 Cocytius duponchel.jpg</a><br></td>
+<td align=center>2013-06-28<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718073>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718079&one=T&OK2SHOWPRIVATE=>EMEC718079</a></small></td>
+<td>Manduca sexta  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718079 Manduca sexta.jpg');">EMEC718079 Manduca sexta.jpg</a><br></td>
+<td align=center>2013-06-28<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718079>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718088&one=T&OK2SHOWPRIVATE=>EMEC718088</a></small></td>
+<td>Manduca sexta  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718088 Manduca sexta.jpg');">EMEC718088 Manduca sexta.jpg</a><br></td>
+<td align=center>2013-06-28<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718088>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718091&one=T&OK2SHOWPRIVATE=>EMEC718091</a></small></td>
+<td>Manduca sexta  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718091 Manduca sexta.jpg');">EMEC718091 Manduca sexta.jpg</a><br></td>
+<td align=center>2013-06-28<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718091>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718096&one=T&OK2SHOWPRIVATE=>EMEC718096</a></small></td>
+<td>Manduca sexta  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718096 Manduca sexta.jpg');">EMEC718096 Manduca sexta.jpg</a><br></td>
+<td align=center>2013-06-28<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718096>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718099&one=T&OK2SHOWPRIVATE=>EMEC718099</a></small></td>
+<td>Manduca sexta  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718099 Manduca sexta.jpg');">EMEC718099 Manduca sexta.jpg</a><br></td>
+<td align=center>2013-06-28<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718099>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718111&one=T&OK2SHOWPRIVATE=>EMEC718111</a></small></td>
+<td>Manduca sexta  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718111 Manduca sexta.jpg');">EMEC718111 Manduca sexta.jpg</a><br></td>
+<td align=center>2013-06-28<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718111>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718117&one=T&OK2SHOWPRIVATE=>EMEC718117</a></small></td>
+<td>Manduca sexta  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718117 Manduca sexta.jpg');">EMEC718117 Manduca sexta.jpg</a><br></td>
+<td align=center>2013-06-28<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718117>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718118&one=T&OK2SHOWPRIVATE=>EMEC718118</a></small></td>
+<td>Manduca sexta  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718118 Manduca sexta.jpg');">EMEC718118 Manduca sexta.jpg</a><br></td>
+<td align=center>2013-06-28<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718118>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718141&one=T&OK2SHOWPRIVATE=>EMEC718141</a></small></td>
+<td>Manduca sexta  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718141 Manduca sexta.jpg');">EMEC718141 Manduca sexta.jpg</a><br></td>
+<td align=center>2013-06-28<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718141>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718147&one=T&OK2SHOWPRIVATE=>EMEC718147</a></small></td>
+<td>Manduca sexta  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718147 Manduca sexta.jpg');">EMEC718147 Manduca sexta.jpg</a><br></td>
+<td align=center>2013-06-28<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718147>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718148&one=T&OK2SHOWPRIVATE=>EMEC718148</a></small></td>
+<td>Manduca sexta  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718148 Manduca sexta.jpg');">EMEC718148 Manduca sexta.jpg</a><br></td>
+<td align=center>2013-06-28<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718148>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718155&one=T&OK2SHOWPRIVATE=>EMEC718155</a></small></td>
+<td>Manduca sexta  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718155 Manduca sexta.jpg');">EMEC718155 Manduca sexta.jpg</a><br></td>
+<td align=center>2013-06-28<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718155>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718165&one=T&OK2SHOWPRIVATE=>EMEC718165</a></small></td>
+<td>Manduca sexta  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718165 Manduca sexta.jpg');">EMEC718165 Manduca sexta.jpg</a><br></td>
+<td align=center>2013-06-28<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718165>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718170&one=T&OK2SHOWPRIVATE=>EMEC718170</a></small></td>
+<td>Manduca sexta  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718170 Manduca sexta.jpg');">EMEC718170 Manduca sexta.jpg</a><br></td>
+<td align=center>2013-06-28<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718170>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718175&one=T&OK2SHOWPRIVATE=>EMEC718175</a></small></td>
+<td>Manduca sexta  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718175 Manduca sexta.jpg');">EMEC718175 Manduca sexta.jpg</a><br></td>
+<td align=center>2013-06-28<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718175>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718221&one=T&OK2SHOWPRIVATE=>EMEC718221</a></small></td>
+<td>Manduca quinquemaculatus  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718221 Manduca quinquemaculatus.jpg');">EMEC718221 Manduca quinquemaculatus.jpg</a><br></td>
+<td align=center>2013-06-28<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718221>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718251&one=T&OK2SHOWPRIVATE=>EMEC718251</a></small></td>
+<td>Manduca florestan  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718251 Manduca florestan.jpg');">EMEC718251 Manduca florestan.jpg</a><br></td>
+<td align=center>2013-07-08<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718251>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718272&one=T&OK2SHOWPRIVATE=>EMEC718272</a></small></td>
+<td>Manduca florestan  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718272 Manduca florestan.jpg');">EMEC718272 Manduca florestan.jpg</a><br></td>
+<td align=center>2013-07-08<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718272>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718287&one=T&OK2SHOWPRIVATE=>EMEC718287</a></small></td>
+<td>Manduca florestan  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718287 Manduca florestan.jpg');">EMEC718287 Manduca florestan.jpg</a><br></td>
+<td align=center>2013-07-08<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718287>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718297&one=T&OK2SHOWPRIVATE=>EMEC718297</a></small></td>
+<td>Manduca dilucida  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718297 Manduca dilucida.jpg');">EMEC718297 Manduca dilucida.jpg</a><br></td>
+<td align=center>2013-07-08<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718297>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718307&one=T&OK2SHOWPRIVATE=>EMEC718307</a></small></td>
+<td>Dolbogene igualana  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718307 Dolbogene igualana.jpg');">EMEC718307 Dolbogene igualana.jpg</a><br></td>
+<td align=center>2013-07-08<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718307>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718311&one=T&OK2SHOWPRIVATE=>EMEC718311</a></small></td>
+<td>Dolbogene igualana  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718311 Dolbogene igualana.jpg');">EMEC718311 Dolbogene igualana.jpg</a><br></td>
+<td align=center>2013-07-08<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718311>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718318&one=T&OK2SHOWPRIVATE=>EMEC718318</a></small></td>
+<td>Dolbogene igualana  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718318 Dolbogene igualana.jpg');">EMEC718318 Dolbogene igualana.jpg</a><br></td>
+<td align=center>2013-07-08<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718318>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718327&one=T&OK2SHOWPRIVATE=>EMEC718327</a></small></td>
+<td>Ceratomia amyntor  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718327 Ceratomia amyntor.jpg');">EMEC718327 Ceratomia amyntor.jpg</a><br></td>
+<td align=center>2013-07-08<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718327>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718343&one=T&OK2SHOWPRIVATE=>EMEC718343</a></small></td>
+<td>Sphinx separatus  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718343 Sphinx separatus.jpg');">EMEC718343 Sphinx separatus.jpg</a><br></td>
+<td align=center>2013-07-08<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718343>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718356&one=T&OK2SHOWPRIVATE=>EMEC718356</a></small></td>
+<td>Sphinx istar  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718356 Sphinx istar.jpg');">EMEC718356 Sphinx istar.jpg</a><br></td>
+<td align=center>2013-07-08<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718356>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718362&one=T&OK2SHOWPRIVATE=>EMEC718362</a></small></td>
+<td>Sphinx istar  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718362 Sphinx istar.jpg');">EMEC718362 Sphinx istar.jpg</a><br></td>
+<td align=center>2013-07-08<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718362>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718367&one=T&OK2SHOWPRIVATE=>EMEC718367</a></small></td>
+<td>Sphinx libocedrus  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718367 Sphinx libocedrus.jpg');">EMEC718367 Sphinx libocedrus.jpg</a><br></td>
+<td align=center>2013-07-08<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718367>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718369&one=T&OK2SHOWPRIVATE=>EMEC718369</a></small></td>
+<td>Sphinx chersis  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718369 Sphinx chersis.jpg');">EMEC718369 Sphinx chersis.jpg</a><br></td>
+<td align=center>2013-07-08<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718369>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718378&one=T&OK2SHOWPRIVATE=>EMEC718378</a></small></td>
+<td>Sphinx chersis  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718378 Sphinx chersis.jpg');">EMEC718378 Sphinx chersis.jpg</a><br></td>
+<td align=center>2013-07-08<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718378>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718414&one=T&OK2SHOWPRIVATE=>EMEC718414</a></small></td>
+<td>Sphinx vashti  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718414 Sphinx vashti.jpg');">EMEC718414 Sphinx vashti.jpg</a><br></td>
+<td align=center>2013-07-08<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718414>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718422&one=T&OK2SHOWPRIVATE=>EMEC718422</a></small></td>
+<td>Sphinx vashti  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718422 Sphinx vashti.jpg');">EMEC718422 Sphinx vashti.jpg</a><br></td>
+<td align=center>2013-07-08<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718422>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718423&one=T&OK2SHOWPRIVATE=>EMEC718423</a></small></td>
+<td>Sphinx vashti  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718423 Sphinx vashti.jpg');">EMEC718423 Sphinx vashti.jpg</a><br></td>
+<td align=center>2013-07-08<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718423>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718425&one=T&OK2SHOWPRIVATE=>EMEC718425</a></small></td>
+<td>Sphinx vashti  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718425 Sphinx vashti.jpg');">EMEC718425 Sphinx vashti.jpg</a><br></td>
+<td align=center>2013-07-08<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718425>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718428&one=T&OK2SHOWPRIVATE=>EMEC718428</a></small></td>
+<td>Sphinx vashti  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718428 Sphinx vashti.jpg');">EMEC718428 Sphinx vashti.jpg</a><br></td>
+<td align=center>2013-07-08<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718428>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718435&one=T&OK2SHOWPRIVATE=>EMEC718435</a></small></td>
+<td>Sphinx vashti  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718435 Sphinx vashti.jpg');">EMEC718435 Sphinx vashti.jpg</a><br></td>
+<td align=center>2013-07-08<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718435>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718477&one=T&OK2SHOWPRIVATE=>EMEC718477</a></small></td>
+<td>Sphinx perelegans  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718477 Sphinx perelegans.jpg');">EMEC718477 Sphinx perelegans.jpg</a><br></td>
+<td align=center>2013-07-08<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718477>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718493&one=T&OK2SHOWPRIVATE=>EMEC718493</a></small></td>
+<td>Sphinx perelegans  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718493 Sphinx perelegans.jpg');">EMEC718493 Sphinx perelegans.jpg</a><br></td>
+<td align=center>2013-07-08<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718493>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718520&one=T&OK2SHOWPRIVATE=>EMEC718520</a></small></td>
+<td>Sphinx perelegans  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718520 Sphinx perelegans.jpg');">EMEC718520 Sphinx perelegans.jpg</a><br></td>
+<td align=center>2013-07-08<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718520>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718540&one=T&OK2SHOWPRIVATE=>EMEC718540</a></small></td>
+<td>Sphinx vashti  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718540 Sphinx vashti.jpg');">EMEC718540 Sphinx vashti.jpg</a><br></td>
+<td align=center>2013-07-08<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718540>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718546&one=T&OK2SHOWPRIVATE=>EMEC718546</a></small></td>
+<td>Sphinx perelegans  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718546 Sphinx perelegans.jpg');">EMEC718546 Sphinx perelegans.jpg</a><br></td>
+<td align=center>2013-07-08<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718546>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718551&one=T&OK2SHOWPRIVATE=>EMEC718551</a></small></td>
+<td>Sphinx perelegans  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718551 Sphinx perelegans.jpg');">EMEC718551 Sphinx perelegans.jpg</a><br></td>
+<td align=center>2013-07-08<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718551>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718565&one=T&OK2SHOWPRIVATE=>EMEC718565</a></small></td>
+<td>Sphinx perelegans  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718565 Sphinx perelegans.jpg');">EMEC718565 Sphinx perelegans.jpg</a><br></td>
+<td align=center>2013-07-08<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718565>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718568&one=T&OK2SHOWPRIVATE=>EMEC718568</a></small></td>
+<td>Sphinx perelegans  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718568 Sphinx perelegans.jpg');">EMEC718568 Sphinx perelegans.jpg</a><br></td>
+<td align=center>2013-07-08<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718568>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718575&one=T&OK2SHOWPRIVATE=>EMEC718575</a></small></td>
+<td>Sphinx perelegans  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718575 Sphinx perelegans.jpg');">EMEC718575 Sphinx perelegans.jpg</a><br></td>
+<td align=center>2013-07-08<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718575>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718579&one=T&OK2SHOWPRIVATE=>EMEC718579</a></small></td>
+<td>Sphinx perelegans  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718579 Sphinx perelegans.jpg');">EMEC718579 Sphinx perelegans.jpg</a><br></td>
+<td align=center>2013-07-08<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718579>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718580&one=T&OK2SHOWPRIVATE=>EMEC718580</a></small></td>
+<td>Sphinx perelegans  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718580 Sphinx perelegans.jpg');">EMEC718580 Sphinx perelegans.jpg</a><br></td>
+<td align=center>2013-07-08<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718580>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718583&one=T&OK2SHOWPRIVATE=>EMEC718583</a></small></td>
+<td>Sphinx perelegans  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718583 Sphinx perelegans.jpg');">EMEC718583 Sphinx perelegans.jpg</a><br></td>
+<td align=center>2013-07-08<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718583>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718593&one=T&OK2SHOWPRIVATE=>EMEC718593</a></small></td>
+<td>Sphinx perelegans  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718593 Sphinx perelegans.jpg');">EMEC718593 Sphinx perelegans.jpg</a><br></td>
+<td align=center>2013-07-08<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718593>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718595&one=T&OK2SHOWPRIVATE=>EMEC718595</a></small></td>
+<td>Sphinx sp.  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718595 Sphinx sp.jpg');">EMEC718595 Sphinx sp.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718595>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718599&one=T&OK2SHOWPRIVATE=>EMEC718599</a></small></td>
+<td>Sphinx sp.  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718599 Sphinx sp.jpg');">EMEC718599 Sphinx sp.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718599>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718602&one=T&OK2SHOWPRIVATE=>EMEC718602</a></small></td>
+<td>Sphinx sp.  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718602 Sphinx sp.jpg');">EMEC718602 Sphinx sp.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718602>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718604&one=T&OK2SHOWPRIVATE=>EMEC718604</a></small></td>
+<td>Sphinx sp.  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718604 Sphinx sp.jpg');">EMEC718604 Sphinx sp.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718604>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718611&one=T&OK2SHOWPRIVATE=>EMEC718611</a></small></td>
+<td>Sphinx sp.  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718611 Sphinx sp.jpg');">EMEC718611 Sphinx sp.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718611>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718613&one=T&OK2SHOWPRIVATE=>EMEC718613</a></small></td>
+<td>Sphinx sp.  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718613 Sphinx sp.jpg');">EMEC718613 Sphinx sp.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718613>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718649&one=T&OK2SHOWPRIVATE=>EMEC718649</a></small></td>
+<td>Sphinx sp.  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718649 Sphinx sp.jpg');">EMEC718649 Sphinx sp.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718649>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718650&one=T&OK2SHOWPRIVATE=>EMEC718650</a></small></td>
+<td>Sphinx sp.  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718650 Sphinx sp.jpg');">EMEC718650 Sphinx sp.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718650>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718656&one=T&OK2SHOWPRIVATE=>EMEC718656</a></small></td>
+<td>Sphinx sp.  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718656 Sphinx sp.jpg');">EMEC718656 Sphinx sp.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718656>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718665&one=T&OK2SHOWPRIVATE=>EMEC718665</a></small></td>
+<td>Sphinx dollii  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718665 Sphinx dollii.jpg');">EMEC718665 Sphinx dollii.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718665>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718666&one=T&OK2SHOWPRIVATE=>EMEC718666</a></small></td>
+<td>Sphinx dollii  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718666 Sphinx dollii.jpg');">EMEC718666 Sphinx dollii.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718666>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718667&one=T&OK2SHOWPRIVATE=>EMEC718667</a></small></td>
+<td>Sphinx dollii  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718667 Sphinx dollii.jpg');">EMEC718667 Sphinx dollii.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718667>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718669&one=T&OK2SHOWPRIVATE=>EMEC718669</a></small></td>
+<td>Sphinx dollii  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718669 Sphinx dollii.jpg');">EMEC718669 Sphinx dollii.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718669>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718671&one=T&OK2SHOWPRIVATE=>EMEC718671</a></small></td>
+<td>Sphinx dollii  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718671 Sphinx dollii.jpg');">EMEC718671 Sphinx dollii.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718671>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718673&one=T&OK2SHOWPRIVATE=>EMEC718673</a></small></td>
+<td>Sphinx dollii  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718673 Sphinx dollii.jpg');">EMEC718673 Sphinx dollii.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718673>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718685&one=T&OK2SHOWPRIVATE=>EMEC718685</a></small></td>
+<td>Sphinx dollii  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718685 Sphinx dollii.jpg');">EMEC718685 Sphinx dollii.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718685>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718688&one=T&OK2SHOWPRIVATE=>EMEC718688</a></small></td>
+<td>Sphinx dollii  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718688 Sphinx dollii.jpg');">EMEC718688 Sphinx dollii.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718688>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718693&one=T&OK2SHOWPRIVATE=>EMEC718693</a></small></td>
+<td>Sphinx sequoiae  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718693 Sphinx sequoiae.jpg');">EMEC718693 Sphinx sequoiae.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718693>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718695&one=T&OK2SHOWPRIVATE=>EMEC718695</a></small></td>
+<td>Sphinx sequoiae  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718695 Sphinx sequoiae.jpg');">EMEC718695 Sphinx sequoiae.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718695>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718703&one=T&OK2SHOWPRIVATE=>EMEC718703</a></small></td>
+<td>Sphinx sequoiae  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718703 Sphinx sequoiae.jpg');">EMEC718703 Sphinx sequoiae.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718703>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718707&one=T&OK2SHOWPRIVATE=>EMEC718707</a></small></td>
+<td>Sphinx sequoiae  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718707 Sphinx sequoiae.jpg');">EMEC718707 Sphinx sequoiae.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718707>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718712&one=T&OK2SHOWPRIVATE=>EMEC718712</a></small></td>
+<td>Sphinx sequoiae  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718712 Sphinx sequoiae.jpg');">EMEC718712 Sphinx sequoiae.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718712>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718727&one=T&OK2SHOWPRIVATE=>EMEC718727</a></small></td>
+<td>Sphinx sequoiae  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718727 Sphinx sequoiae.jpg');">EMEC718727 Sphinx sequoiae.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718727>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718730&one=T&OK2SHOWPRIVATE=>EMEC718730</a></small></td>
+<td>Sphinx sequoiae  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718730 Sphinx sequoiae.jpg');">EMEC718730 Sphinx sequoiae.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718730>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718735&one=T&OK2SHOWPRIVATE=>EMEC718735</a></small></td>
+<td>Sphinx sequoiae  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718735 Sphinx sequoiae.jpg');">EMEC718735 Sphinx sequoiae.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718735>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718745&one=T&OK2SHOWPRIVATE=>EMEC718745</a></small></td>
+<td>Sphinx sequoiae  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718745 Sphinx sequoiae.jpg');">EMEC718745 Sphinx sequoiae.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718745>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718747&one=T&OK2SHOWPRIVATE=>EMEC718747</a></small></td>
+<td>Lapara coniferarum  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718747 Lapara coniferarum.jpg');">EMEC718747 Lapara coniferarum.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718747>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718748&one=T&OK2SHOWPRIVATE=>EMEC718748</a></small></td>
+<td>Lapara coniferarum  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718748 Lapara coniferarum.jpg');">EMEC718748 Lapara coniferarum.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718748>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718750&one=T&OK2SHOWPRIVATE=>EMEC718750</a></small></td>
+<td>Lapara coniferarum  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718750 Lapara coniferarum.jpg');">EMEC718750 Lapara coniferarum.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718750>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718751&one=T&OK2SHOWPRIVATE=>EMEC718751</a></small></td>
+<td>Lapara coniferarum  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718751 Lapara coniferarum.jpg');">EMEC718751 Lapara coniferarum.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718751>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718752&one=T&OK2SHOWPRIVATE=>EMEC718752</a></small></td>
+<td>Sphinx pinastri  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718752 Sphinx pinastri.jpg');">EMEC718752 Sphinx pinastri.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718752>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718774&one=T&OK2SHOWPRIVATE=>EMEC718774</a></small></td>
+<td>Smerinthus sp.  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718774 Smerinthus sp.jpg');">EMEC718774 Smerinthus sp.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718774>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718781&one=T&OK2SHOWPRIVATE=>EMEC718781</a></small></td>
+<td>Smerinthus sp.  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718781 Smerinthus sp.jpg');">EMEC718781 Smerinthus sp.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718781>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718782&one=T&OK2SHOWPRIVATE=>EMEC718782</a></small></td>
+<td>Smerinthus sp.  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718782 Smerinthus sp.jpg');">EMEC718782 Smerinthus sp.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718782>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718784&one=T&OK2SHOWPRIVATE=>EMEC718784</a></small></td>
+<td>Smerinthus sp.  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718784 Smerinthus sp.jpg');">EMEC718784 Smerinthus sp.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718784>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718796&one=T&OK2SHOWPRIVATE=>EMEC718796</a></small></td>
+<td>Smerinthus sp.  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718796 Smerinthus sp.jpg');">EMEC718796 Smerinthus sp.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718796>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718799&one=T&OK2SHOWPRIVATE=>EMEC718799</a></small></td>
+<td>Smerinthus sp.  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718799 Smerinthus sp.jpg');">EMEC718799 Smerinthus sp.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718799>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718818&one=T&OK2SHOWPRIVATE=>EMEC718818</a></small></td>
+<td>Smerinthus cerisyi  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718818 Smerinthus cerisyi.jpg');">EMEC718818 Smerinthus cerisyi.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718818>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718821&one=T&OK2SHOWPRIVATE=>EMEC718821</a></small></td>
+<td>Smerinthus cerisyi  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718821 Smerinthus cerisyi.jpg');">EMEC718821 Smerinthus cerisyi.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718821>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718833&one=T&OK2SHOWPRIVATE=>EMEC718833</a></small></td>
+<td>Smerinthus cerisyi  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718833 Smerinthus cerisyi.jpg');">EMEC718833 Smerinthus cerisyi.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718833>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718834&one=T&OK2SHOWPRIVATE=>EMEC718834</a></small></td>
+<td>Smerinthus cerisyi  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718834 Smerinthus cerisyi.jpg');">EMEC718834 Smerinthus cerisyi.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718834>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718841&one=T&OK2SHOWPRIVATE=>EMEC718841</a></small></td>
+<td>Smerinthus cerisyi  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718841 Smerinthus cerisyi.jpg');">EMEC718841 Smerinthus cerisyi.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718841>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718861&one=T&OK2SHOWPRIVATE=>EMEC718861</a></small></td>
+<td>Smerinthus cerisyi  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718861 Smerinthus cerisyi.jpg');">EMEC718861 Smerinthus cerisyi.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718861>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718866&one=T&OK2SHOWPRIVATE=>EMEC718866</a></small></td>
+<td>Smerinthus sp.  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718866 Smerinthus sp.jpg');">EMEC718866 Smerinthus sp.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718866>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718870&one=T&OK2SHOWPRIVATE=>EMEC718870</a></small></td>
+<td>Smerinthus sp.  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718870 Smerinthus sp.jpg');">EMEC718870 Smerinthus sp.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718870>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718877&one=T&OK2SHOWPRIVATE=>EMEC718877</a></small></td>
+<td>Pachysphinx occidentalis  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718877 Pachysphinx occidentalis.jpg');">EMEC718877 Pachysphinx occidentalis.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718877>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718878&one=T&OK2SHOWPRIVATE=>EMEC718878</a></small></td>
+<td>Pachysphinx occidentalis  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718878 Pachysphinx occidentalis.jpg');">EMEC718878 Pachysphinx occidentalis.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718878>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718884&one=T&OK2SHOWPRIVATE=>EMEC718884</a></small></td>
+<td>Pachysphinx occidentalis  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718884 Pachysphinx occidentalis.jpg');">EMEC718884 Pachysphinx occidentalis.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718884>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718889&one=T&OK2SHOWPRIVATE=>EMEC718889</a></small></td>
+<td>Pachysphinx occidentalis  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718889 Pachysphinx occidentalis.jpg');">EMEC718889 Pachysphinx occidentalis.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718889>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718902&one=T&OK2SHOWPRIVATE=>EMEC718902</a></small></td>
+<td>Pachysphinx occidentalis  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718902 Pachysphinx occidentalis.jpg');">EMEC718902 Pachysphinx occidentalis.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718902>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718917&one=T&OK2SHOWPRIVATE=>EMEC718917</a></small></td>
+<td>Erinnyis ello  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718917 Erinnyis ello.jpg');">EMEC718917 Erinnyis ello.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718917>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718932&one=T&OK2SHOWPRIVATE=>EMEC718932</a></small></td>
+<td>Erinnyis ello  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718932 Erinnyis ello.jpg');">EMEC718932 Erinnyis ello.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718932>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718934&one=T&OK2SHOWPRIVATE=>EMEC718934</a></small></td>
+<td>Erinnyis ello  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718934 Erinnyis ello.jpg');">EMEC718934 Erinnyis ello.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718934>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718935&one=T&OK2SHOWPRIVATE=>EMEC718935</a></small></td>
+<td>Erinnyis ello  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718935 Erinnyis ello.jpg');">EMEC718935 Erinnyis ello.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718935>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718941&one=T&OK2SHOWPRIVATE=>EMEC718941</a></small></td>
+<td>Erinnyis ello  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718941 Erinnyis ello.jpg');">EMEC718941 Erinnyis ello.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718941>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718944&one=T&OK2SHOWPRIVATE=>EMEC718944</a></small></td>
+<td>Erinnyis ello  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718944 Erinnyis ello.jpg');">EMEC718944 Erinnyis ello.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718944>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718969&one=T&OK2SHOWPRIVATE=>EMEC718969</a></small></td>
+<td>Erinnyis ello  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718969 Erinnyis ello.jpg');">EMEC718969 Erinnyis ello.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718969>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC718981&one=T&OK2SHOWPRIVATE=>EMEC718981</a></small></td>
+<td>Erinnyis ello  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC718981 Erinnyis ello.jpg');">EMEC718981 Erinnyis ello.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC718981>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC719606&one=T&OK2SHOWPRIVATE=>EMEC719606</a></small></td>
+<td>Erinnyis obscura  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC719606 Erinnyis obscura.jpg');">EMEC719606 Erinnyis obscura.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC719606>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC719612&one=T&OK2SHOWPRIVATE=>EMEC719612</a></small></td>
+<td>Erinnyis obscura  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC719612 Erinnyis obscura.jpg');">EMEC719612 Erinnyis obscura.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC719612>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC719620&one=T&OK2SHOWPRIVATE=>EMEC719620</a></small></td>
+<td>Erinnyis obscura  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC719620 Erinnyis obscura.jpg');">EMEC719620 Erinnyis obscura.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC719620>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC719629&one=T&OK2SHOWPRIVATE=>EMEC719629</a></small></td>
+<td>Erinnyis obscura  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC719629 Erinnyis obscura.jpg');">EMEC719629 Erinnyis obscura.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC719629>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC719635&one=T&OK2SHOWPRIVATE=>EMEC719635</a></small></td>
+<td>Erinnyis guttularis  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC719635 Erinnyis guttularis.jpg');">EMEC719635 Erinnyis guttularis.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC719635>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC719644&one=T&OK2SHOWPRIVATE=>EMEC719644</a></small></td>
+<td>Pachylia ficus  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC719644 Pachylia ficus.jpg');">EMEC719644 Pachylia ficus.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC719644>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC719646&one=T&OK2SHOWPRIVATE=>EMEC719646</a></small></td>
+<td>Pachylia ficus  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC719646 Pachylia ficus.jpg');">EMEC719646 Pachylia ficus.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC719646>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC719653&one=T&OK2SHOWPRIVATE=>EMEC719653</a></small></td>
+<td>Pachylia ficus  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC719653 Pachylia ficus.jpg');">EMEC719653 Pachylia ficus.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC719653>EDIT</a>]
+</td>
+</tr><tr><td nowrap><small><a href=/cgi/eme_query?table=eme&bnhm_id=EMEC719664&one=T&OK2SHOWPRIVATE=>EMEC719664</a></small></td>
+<td>Madoryx plutonius  <br></td>
+<td><a href="javascript:openNewWindow('http://essigdb.berkeley.edu/labels/710000/EMEC719664 Madoryx plutonius.jpg');">EMEC719664 Madoryx plutonius.jpg</a><br></td>
+<td align=center>2013-07-13<br></td>
+<td><font color=green>yes</font>&nbsp;&nbsp;
+[<a href=/cgi/eme_add_specimens_start?bnhm_id=EMEC719664>EDIT</a>]
+</td>
+</tr></table>
+<!-- end of body --->      </td>
+    </tr>
+    <tr bgcolor="#669ACC">
+      <td colspan=2 align=center>&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan=2 align=center>
+<small>The <a href=http://essigdb.berkeley.edu/>Essig Database</a>  is a project of <a href=http://bscit.berkeley.edu>BSCIT</a>&nbsp;&nbsp;University of California, Berkeley &nbsp;&nbsp;&nbsp;<a href=/cgi/dlpmail.pl?step=form&site=db&receiver=ESSIG&subject=Essig+Database>Comments & Questions</a><br></small>    <tr>
+      <td colspan=2 align=center>
+      <a href="http://essig.berkeley.edu">
+         Essig Museum Home</a>&nbsp;&nbsp;
+      <a href="/http://essigdb.berkeley.edu/">Start a new Search</a></td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"> &nbsp;<br>
+      </td>
+    </tr>
+  </table>
+</center>
+</body></html>
