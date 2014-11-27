@@ -4,7 +4,7 @@ import os
 
 PATH = os.getcwd()
 FILE_PATH = os.path.join(PATH, 'images.text')
-OUTPUT_PATH =os.path.join(PATH,'output/')
+OUTPUT_PATH =os.path.join(PATH,'files/')
 jpg_re = r'http://essigdb.+.jpg.\)'
 result=[]
 with open(FILE_PATH, 'r') as f:
