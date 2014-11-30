@@ -1,0 +1,12 @@
+Dependencies:
+tesseract-ocr (OCR software - well-trained for English)
+pytesseract (python wrapper for tesseract)
+Pillow (Image processor)
+
+Transformations made in pre-processing:
+Black & Whited image - hoping to increase contrast between text and non-text -> Image loses too much info
+
+Grey-scaled image - some parts more accurate, some parts less accurate
+
+Idea:
+Do our own training
