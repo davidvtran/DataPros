@@ -3,10 +3,30 @@ tesseract-ocr (OCR software - well-trained for English)
 pytesseract (python wrapper for tesseract)
 Pillow (Image processor)
 
+Overview:
+1.)  Take in images
+2.)  Pre-processing on images
+3.)  Run thru OCR.  Output results to file
+4.)  Categorize sections of text to different things.
+5.)  Use vocabulary lists to do post-processing of text output
+6.)  Store to final output (db/csv/etc.)
+
+
+
 Transformations made in pre-processing:
 Black & Whited image - hoping to increase contrast between text and non-text -> Image loses too much info
 
 Grey-scaled image - some parts more accurate, some parts less accurate
 
+Sharpening image - Very good idea
+
+
 Idea:
 Do our own training
+
+Notes from doing research:
+Tesseract handles multiple fonts within on image poorly:
+	Once it sees a certain character - it expects the rest of the image to follow the same font
+	This makes the combination of handwritten notes and printed text hard to recognize.  
+		Split them and restitch later?
+
