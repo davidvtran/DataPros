@@ -20,13 +20,26 @@ Grey-scaled image - some parts more accurate, some parts less accurate
 
 Sharpening image - Very good idea
 
+Cropping - extract areas with text -> greatly increases accuracy
+
+
+Optimizations:
+Restrict language to english
+Restrict character set
+Restrict wordlist to vocabulary lists / pull from CSV
+
 
 Idea:
 Do our own training
+
 
 Notes from doing research:
 Tesseract handles multiple fonts within on image poorly:
 	Once it sees a certain character - it expects the rest of the image to follow the same font
 	This makes the combination of handwritten notes and printed text hard to recognize.  
 		Split them and restitch later?
+
+On a related note, Tesseract also handles different font sizes poorly.  Small, but clear text won't be extracted if there is large and clear text.
+
+
 
