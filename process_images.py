@@ -1,3 +1,4 @@
+# coding=utf-8
 # this requires installing Pillow, pytesseract
 # Pillow - $sudo easy_install Pillow or install from http://pillow.readthedocs.org/en/latest/installation.html
 # pytesseract - https://pypi.python.org/pypi/pytesseract
@@ -7,7 +8,7 @@ import pytesseract
 import csv
 from Levenshtein import *
 from warnings import warn
-
+import os
 
 
 def setup_sharpened(input):
@@ -65,6 +66,8 @@ def process_all_transformations(original):
 		print '-----------------------------'
 
 def process_output(tesseract_output):
+	#tesseract_output = os.linesep.join([s for s in tesseract_output.splitlines() if s])
+
 	manual = construct_manual_vocab_list()
 	post_processed = tesseract_output
 	cleaned_data = list()
@@ -74,14 +77,18 @@ def process_output(tesseract_output):
 	for row in tesseract_output:
 		lists = row.split(' ')
 		cleaned_output = ''
+		if row == '':
+			continue
 		for word in lists:
+			word = word.replace("'",'').replace('"','')
+			word = word.replace('‘','')
+			word = word.replace("/[^A-Za-z 0-9 \.,\?/""!@#\$%\^&\*\(\)-_=\+;:<>\/\|\}\{\[\]`~]*/g", '')
+			word = word.replace("»",'').replace('~','').replace('§','')
 			if len(word) < 2:
-				#print "removed word: " + word
 				pass
 			else:
 				cleaned_output += ' ' + word
-		#print cleaned_output
-		cleaned_data.append(cleaned_output.strip()) #restitch
+		cleaned_data.append(cleaned_output.strip()) #re-stitch
 
 
 	post_processed = cleaned_data
@@ -90,12 +97,16 @@ def process_output(tesseract_output):
 
 	for row in cleaned_data: #row is a string
 		for string in manual:
-			if StringMatcher(None, string.lower(), row.lower()).distance() < 5:
+			# if StringMatcher(None, string.lower(), row.lower()).distance() < 5:
+			# 	post_processed[i] = string
+			# 	continue
+			if StringMatcher(None, string.lower(), row.lower()).ratio() > 0.75:
 				post_processed[i] = string
 
 			elif row !='' and row != None:
 				pass
 		i+=1
+
 	for row in post_processed:
 		print row
 
@@ -140,8 +151,9 @@ def construct_informal_vocab_list():
 def construct_manual_vocab_list():
 	manual = set()
 	manual.add('UC Berkeley')
-	manual.add('MEX:Ver., Estac.')
-	manual.add('VII51/9-1988')
+	# manual.add('MEX:Ver., Estac.')
+	# manual.add('VII51/9-1988')
+	# manual.add('Chemsak,at lites')
 	return manual
 
 def main():
