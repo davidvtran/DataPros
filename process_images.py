@@ -9,7 +9,8 @@ import csv
 from Levenshtein import *
 from warnings import warn
 import os
-
+import time
+import string
 
 def setup_sharpened(input):
 	sharpened = input.filter(ImageFilter.SHARPEN)
@@ -38,7 +39,7 @@ def setup_greyscale(input):
 	greyscale = input.convert('L')
 	greyscale.save('greyscale.jpg')
 	greyscale = Image.open('greyscale.jpg')
-	greyscale = greyscale.filter(ImageFilter.SHARPEN)
+	#greyscale = greyscale.filter(ImageFilter.SHARPEN)
 	greyscale = greyscale.filter(ImageFilter.EDGE_ENHANCE)
 	greyscale.save('greyscale.jpg')
 	return greyscale
@@ -46,7 +47,7 @@ def setup_greyscale(input):
 
 def process_all_transformations(original):
 	sharpened = setup_sharpened(original)
-	supersharpened = setup_supersharpened(original)
+	#supersharpened = setup_supersharpened(original)
 	bw = setup_bw(original)
 	greyscale = setup_greyscale(original)
 
@@ -54,19 +55,22 @@ def process_all_transformations(original):
 	list_to_process.append((original, 'original'))
 	list_to_process.append((sharpened, 'sharpened'))
 	#list_to_process.append((supersharpened, 'supersharpened'))
-	#list_to_process.append((bw, 'black_and_white'))
-	#list_to_process.append((greyscale, 'greyscale'))
+	list_to_process.append((bw, 'black_and_white'))
+	list_to_process.append((greyscale, 'greyscale'))
 
 	for pair in list_to_process:
 		image = pair[0]
 		name = pair[1]
 		print name + ' output:'
-		output =  pytesseract.image_to_string(image, 'eng', False, 'tessedit_char_whitelist abcdefghijklmnopqrstuvwxyz').split('\n')
-		process_output(output)
+		output =  pytesseract.image_to_string(image, 'eng', False, None).split('\n') #don't use config file
+		#output =  pytesseract.image_to_string(image, 'eng', False, 'config.txt').split('\n') #use config file 
+		processed_output = process_output(output)
 		print '-----------------------------'
+	return processed_output
 
 def process_output(tesseract_output):
 	#tesseract_output = os.linesep.join([s for s in tesseract_output.splitlines() if s])
+	import string
 
 	manual = construct_manual_vocab_list()
 	post_processed = tesseract_output
@@ -80,27 +84,26 @@ def process_output(tesseract_output):
 		if row == '':
 			continue
 		for word in lists:
+			filter(lambda x: x in string.printable, word)
 			word = word.replace("'",'').replace('"','')
 			word = word.replace('‘','')
-			word = word.replace("/[^A-Za-z 0-9 \.,\?/""!@#\$%\^&\*\(\)-_=\+;:<>\/\|\}\{\[\]`~]*/g", '')
-			word = word.replace("»",'').replace('~','').replace('§','')
+			word = word.replace("»",'').replace('~','').replace('§','').replace('’','').replace('€','E').replace('«','').replace('¥','Y').replace('¢','e')
+			word = word.replace('}','')
+			word = word.replace('_','')
 			if len(word) < 2:
 				pass
 			else:
 				cleaned_output += ' ' + word
 		cleaned_data.append(cleaned_output.strip()) #re-stitch
 
-
 	post_processed = cleaned_data
-
-
 
 	for row in cleaned_data: #row is a string
 		for string in manual:
 			# if StringMatcher(None, string.lower(), row.lower()).distance() < 5:
 			# 	post_processed[i] = string
 			# 	continue
-			if StringMatcher(None, string.lower(), row.lower()).ratio() > 0.75:
+			if StringMatcher(None, string.lower(), row.lower()).ratio() > 0.65:
 				post_processed[i] = string
 
 			elif row !='' and row != None:
@@ -109,6 +112,7 @@ def process_output(tesseract_output):
 
 	for row in post_processed:
 		print row
+	return post_processed
 
 
 def construct_master_set():
@@ -151,15 +155,30 @@ def construct_informal_vocab_list():
 def construct_manual_vocab_list():
 	manual = set()
 	manual.add('UC Berkeley')
-	# manual.add('MEX:Ver., Estac.')
-	# manual.add('VII51/9-1988')
-	# manual.add('Chemsak,at lites')
+	manual.add('Berkeley')
+	manual.add("EMEC")
+	manual.add('Chemsak,at lites')
+	manual.add('Biol.Los Tuxtlas')
 	return manual
 
+def batch_process():
+	for i in range(124):
+		filename = 'images/files/' + str(i) + '.jpg'
+		image = Image.open(filename)
+		temp = process_all_transformations(image)
+		f =  open('text_output/processed_' + str(i) + '.txt','a')
+		for row in temp:
+			f.write(row + '\n')
+
+
+
 def main():
-	#construct_master_set()
-	original = Image.open("123.jpg") # open colour image
-	process_all_transformations(original) 
+	start_time = time.time()
+	image = Image.open("test.jpg") # open colour image
+	process_all_transformations(image) 
+	#batch_process()
+	end_time = time.time()
+	print "Processing took",end_time - start_time, 'seconds'
 
 
 
