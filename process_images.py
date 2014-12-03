@@ -163,25 +163,23 @@ def construct_manual_vocab_list():
 
 def batch_process():
 	for i in range(124):
-		filename = 'images/files/' + str(i) + '.jpg'
+		filename = 'archive/' + str(i) + '.jpg'
 		image = Image.open(filename)
 		temp = process_all_transformations(image)
-		f =  open('text_output/processed_' + str(i) + '.txt','a')
-		for row in temp:
-			f.write(row + '\n')
+		if len(temp) > 3:
+			f =  open('text_output/processed_' + str(i) + '.txt','a')
+			for row in temp:
+				f.write(row + '\n')
 
 
 
 def main():
 	start_time = time.time()
-	image = Image.open("test.jpg") # open colour image
+	image = Image.open("123.jpg") # open colour image
 	process_all_transformations(image) 
 	#batch_process()
 	end_time = time.time()
 	print "Processing took",end_time - start_time, 'seconds'
-
-
-
 
 
 
