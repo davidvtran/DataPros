@@ -1,0 +1,6 @@
+EMEC
+..l
+Berkeley
+720163
+qr x.o
+Acmaeodera acuta
