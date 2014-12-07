@@ -11,6 +11,8 @@ from warnings import warn
 import os
 import time
 import string
+import re
+import random
 
 def setup_sharpened(input):
 	sharpened = input.filter(ImageFilter.SHARPEN)
@@ -48,15 +50,15 @@ def setup_greyscale(input):
 def process_all_transformations(original):
 	sharpened = setup_sharpened(original)
 	#supersharpened = setup_supersharpened(original)
-	bw = setup_bw(original)
-	greyscale = setup_greyscale(original)
+	#bw = setup_bw(original)
+	#greyscale = setup_greyscale(original)
 
 	list_to_process = list()
 	list_to_process.append((original, 'original'))
-	list_to_process.append((sharpened, 'sharpened'))
+	#list_to_process.append((sharpened, 'sharpened'))
 	#list_to_process.append((supersharpened, 'supersharpened'))
-	list_to_process.append((bw, 'black_and_white'))
-	list_to_process.append((greyscale, 'greyscale'))
+	#list_to_process.append((bw, 'black_and_white'))
+	#list_to_process.append((greyscale, 'greyscale'))
 
 	for pair in list_to_process:
 		image = pair[0]
@@ -84,10 +86,10 @@ def process_output(tesseract_output):
 		if row == '':
 			continue
 		for word in lists:
-			filter(lambda x: x in string.printable, word)
+			word = filter(lambda x: x in string.printable, word)
 			word = word.replace("'",'').replace('"','')
 			word = word.replace('‘','')
-			word = word.replace("»",'').replace('~','').replace('§','').replace('’','').replace('€','E').replace('«','').replace('¥','Y').replace('¢','e')
+			word = word.replace("»",'').replace('~','').replace('§','').replace('’','').replace('€','E').replace('«','').replace('¥','Y').replace('¢','e').replace('|','l')
 			word = word.replace('}','')
 			word = word.replace('_','')
 			if len(word) < 2:
@@ -110,8 +112,8 @@ def process_output(tesseract_output):
 				pass
 		i+=1
 
-	for row in post_processed:
-		print row
+	# for row in post_processed:
+	# 	print row
 	return post_processed
 
 
@@ -159,29 +161,70 @@ def construct_manual_vocab_list():
 	manual.add("EMEC")
 	manual.add('Chemsak,at lites')
 	manual.add('Biol.Los Tuxtlas')
+	manual.add('Agrius')
+	manual.add("Collector")
+	manual.add("Powell")
+	manual.add("at lites")
+	manual.add("at light")
 	return manual
 
 def batch_process():
-	for i in range(124):
-		filename = 'images/files/' + str(i) + '.jpg'
+	for i in range(4000):
+		i+=1006
+		filename = 'archive/pic' + str(i) + '.jpg'
+		print "Processing " + filename
 		image = Image.open(filename)
 		temp = process_all_transformations(image)
-		f =  open('text_output/processed_' + str(i) + '.txt','a')
-		for row in temp:
-			f.write(row + '\n')
+		temp = filter(None,temp)
+
+		if is_good_output(temp):
+			print temp
+			f =  open('text_output/processed_' + str(i) + '.txt','a')
+			for row in temp:
+				f.write(row + '\n')
+		
+
+def is_good_output(output):
+	warning_count = 0
+	if len(output) < 4: 
+		print "too short"
+		return False
+	#print output
+	for line in output:
+		# pattern = '(\W+)'
+		# #m = re.compile(pattern)
+		# m = re.match(line, pattern)
+		# if m:
+		# 	warning_count += len(m.groups())
+		for character in line:
+			if character not in 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 ':
+				warning_count+=1
+	if warning_count > 6:
+		print 'too many warnings'
+		return False
+	return True
+
+def randomly_select_20_output():
+	for i in range(6000):
+		rand = random.random()
+		if rand < 1/20:
+			f =  open('text_output/processed_' + str(i) + '.txt','a')
+			for line in f:
+				print f
+
+
+
 
 
 
 def main():
 	start_time = time.time()
-	image = Image.open("test.jpg") # open colour image
-	process_all_transformations(image) 
+	#image = Image.open("archive/pic1008.jpg") # open colour image
+	#process_all_transformations(image) 
 	#batch_process()
+	randomly_select_20_output()
 	end_time = time.time()
 	print "Processing took",end_time - start_time, 'seconds'
-
-
-
 
 
 
