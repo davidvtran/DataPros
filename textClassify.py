@@ -25,17 +25,46 @@ def constructUSCountiesSet():
 				formal.add(country.strip())
 	return formal
 
+def constructDateSet():
+	dateSet = set()
+	with open('dates_and_romans.txt','r') as dates:
+		for date in dates:
+			dateSet.add(date.strip())
+	return dateSet
+
 def textClassify(text):
 
-	categoryList = list()
 	collectSet = constructCollectorSet()
 	countriesSet = constructCountriesSet()
 	usCountiesSet = constructUSCountiesSet()
-	
+	dateSet = constructDateSet()
+
+	categoryList = list()
 	categoryList.append(collectSet)
 	categoryList.append(countriesSet)
 	categoryList.append(usCountiesSet)
+
+	#Classify Text into Name, Location, Collector, Collecting method, date, catalog_id
 	
+	#Remove useless EMEC
+	text = text.strip()
+	if ('EMEC' in text): 	
+		text = text.replace('EMEC','')
+	print "Check: " + text
+	#Check if text is a catalog id
+	digitCount=0;
+	for char in text:
+		if(char.isdigit()):
+			digitCount += 1
+	if(digitCount > 5 and len(text) < 10):
+		return 'catalog_id'
+
+
+	#Check if text is a date
+	for date in dateSet:
+		if date in text:
+			return 'date'
+
 	categoryDistances = list()
 	categoryWords = list()
 
@@ -52,26 +81,42 @@ def textClassify(text):
 		categoryWords.append(closestWord)
 	
 	minDist = min(categoryDistances)
-	threshold = 10
-	if(minDist < 10):
+	
+	print '-----------------'
+	print closestWord
+	print text
+	print text + ': ' + str(ratio(closestWord,text))
+	
+	if ((minDist < 5) and (ratio(closestWord, text) > .7)):
 		#There is a category for this text
+		
 		catIndex = categoryDistances.index(minDist)
 
+		print(categoryWords[catIndex])
+		
 		if(catIndex == 0):
-			return (categoryList[catIndex], categoryWords[catIndex], 'Collectors')
+			return 'Collectors'
 		elif(catIndex == 1):
-			return (categoryList[catIndex], categoryWords[catIndex], 'Countries')
+			return 'Countries'
 		elif(catIndex == 2):
-			return (categoryList[catIndex], categoryWords[catIndex],'US Counties')
+			return 'US Counties'
 
 	else:
-		return None
+		return 'Nothing'
 
 
 
 #Test Script
+
+f = open('text_output/processed_1007.txt', 'r')
+for line in f:
+	print line + ": " + textClassify(line)
+
+"""
 text = 'Alex Ho'
-result = textClassify(text)
-print result[1]
-print distance(text, result[1])
-print result[2]
+print text + ": " + textClassify(text)
+print 'Canada' + ": " + textClassify('Canada')
+print 'Chemsek' + ": " + textClassify('Chemsek')
+print 'EMEC 719888' + ": " + textClassify('EMEC 719888')
+print 'VII-1/9-1988' + ": " + textClassify('VII-1/9-1988')
+print 'June 8, 1993' + ": " + textClassify('June 8, 1993')"""
