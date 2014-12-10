@@ -1,11 +1,31 @@
 Started with 4014 images.
-Filtered down to 624
+Filtered down to 624.
 
+
+
+
+------------------------------------------------------------------------------------------------------------------------------
 
 Text Extraction:
+Number of correct predictions: 993
+Total number of characters: 2649
+Accuracy: 37.4858437146%
+
+Accuracy = number of characters extracted correctly / total number of characters
+
+
+------------------------------------------------------------------------------------------------------------------------------
 
 
 Text Classification:
-Number of correct predictions: 268
+Notes:
+One prediction per line.
+
+Results:
+Number of correct predictions: 293
 Total number of predictions: 370
-Accuracy: 72.4324324324%
+Accuracy: 79.1891891892%
+
+138 of the 293 correct predictions are "Nothing" predictions
+
+

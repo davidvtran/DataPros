@@ -4,6 +4,7 @@ def main():
 	numCorrect = 0
 	numTotal = 0
 	x=0
+	nothingCount = 0
 	for i in range(1000,1371):
 		try:
 			classificationOutput = 'classification_output/' + str(i) + '.txt'
@@ -31,6 +32,9 @@ def main():
 						print "Should be: " + fText
 						print ''
 
+					if fText == 'nothing' and gText == 'nothing':
+						nothingCount +=1
+
 					numTotal += 1
 				except:
 					continue
@@ -42,6 +46,8 @@ def main():
 	print "Number of correct predictions: " + str(numCorrect)
 	print "Total number of predictions: " + str(numTotal)
 	print "Accuracy: " + str(1.0 * numCorrect / numTotal * 100) + '%'
+
+	print "NothingCount: " + str(nothingCount)
 
 
 if __name__ == '__main__':

@@ -1,6 +1,4 @@
-date
-catalogid
 nothing
-location
+nothing
 nothing
 species
