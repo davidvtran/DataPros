@@ -179,7 +179,7 @@ def batch_process():
 
 		if is_good_output(temp):
 			print temp
-			f =  open('text_output/processed_' + str(i) + '.txt','a')
+			f =  open('text_output/processed_' + str(i) + '.txt','w')
 			for row in temp:
 				f.write(row + '\n')
 		
