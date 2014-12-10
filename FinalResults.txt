@@ -1,0 +1,11 @@
+Started with 4014 images.
+Filtered down to 624
+
+
+Text Extraction:
+
+
+Text Classification:
+Number of correct predictions: 268
+Total number of predictions: 370
+Accuracy: 72.4324324324%
