@@ -1,0 +1,4 @@
+Collector
+Date
+Catalog_ID
+Species

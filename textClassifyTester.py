@@ -51,7 +51,7 @@ categoryDict['Date']= constructDateSet()
 #textClassifyPrintFriendly('June 8, 1993', categoryDict)
 
 txtC = TextClassifier(categoryDict)
-for i in range(1000,1050):
+for i in range(1000,5000):
 	txtC.classifyImageText('text_output/processed_'+str(i)+'.txt', i)
 txtC.printResultsDict()
 txtC.dumpSetsToDisk()

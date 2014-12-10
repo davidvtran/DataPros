@@ -1,0 +1,7 @@
+Collector
+Date
+Catalog_ID
+Nothing
+Nothing
+Nothing
+Species

@@ -1,0 +1,6 @@
+Collector
+Date
+Nothing
+Nothing
+Catalog_ID
+Nothing
