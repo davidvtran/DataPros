@@ -1,10 +1,7 @@
 import csv
 from Levenshtein import *
 import cPickle as pickle
-# try:
-#    import cPickle as pickle
-# except:
-#    import pickle
+
 
 def constructCollectorSet():
 	collectorSet = set()
