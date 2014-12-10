@@ -72,6 +72,7 @@ class TextClassifier:
 		try:
 			f = open(path, 'r')
 			newDict = dict()
+			temp = list()
 			for line in f:
 				line = line.strip()
 				category = self.classifyText(line)
@@ -83,6 +84,7 @@ class TextClassifier:
 					newDict[category]=newList
 				else:
 					newDict[category].append(line)
+				temp.append(category)
 			self.resultsDict[path]=newDict
 
 			g =  open('classification_output/' + str(i) + '.txt','w')

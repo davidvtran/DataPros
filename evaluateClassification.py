@@ -4,7 +4,7 @@ def main():
 	numCorrect = 0
 	numTotal = 0
 	x=0
-	for in range(1000,5000):
+	for in range(1000,1371):
 		try:
 			classificationOutput = ''
 			mannuallyClassified = ''
@@ -17,8 +17,13 @@ def main():
 
 			for i in range(len(f)):
 				try:
-					if f[i].strip().lower() == g[i].strip().lower():
+					fText = f[i].strip().lower()
+					gText = g[i].strip().lower()
+					if fText == gText:
 						numCorrect +=1
+					if (fText == 'countries' or fText == 'counties') and gText == "location":
+						numCorrect +=1
+					if (fText == 'catalog_id' and gText == 'catalogid')
 					numTotal += 1
 				except:
 					continue
