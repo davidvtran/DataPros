@@ -1,0 +1,5 @@
+location
+nothing
+nothing
+catalogid
+species

@@ -1,0 +1,8 @@
+species
+nothing
+date
+nothing
+nothing
+collection
+nothing
+catalogid

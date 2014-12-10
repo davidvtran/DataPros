@@ -1,0 +1,6 @@
+date
+catalogid
+nothing
+location
+nothing
+species
