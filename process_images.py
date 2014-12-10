@@ -229,6 +229,8 @@ def main():
 
 
 
+#The following StringMatcher code is from the Levenshtein API.
+
 class StringMatcher:
     """A SequenceMatcher-like class built on the top of Levenshtein"""
 
