@@ -49,22 +49,23 @@ def setup_greyscale(input):
 
 def process_all_transformations(original):
 	sharpened = setup_sharpened(original)
-	#supersharpened = setup_supersharpened(original)
-	#bw = setup_bw(original)
-	#greyscale = setup_greyscale(original)
+	supersharpened = setup_supersharpened(original)
+	bw = setup_bw(original)
+	greyscale = setup_greyscale(original)
 
 	list_to_process = list()
 	list_to_process.append((original, 'original'))
-	#list_to_process.append((sharpened, 'sharpened'))
-	#list_to_process.append((supersharpened, 'supersharpened'))
-	#list_to_process.append((bw, 'black_and_white'))
-	#list_to_process.append((greyscale, 'greyscale'))
+	list_to_process.append((sharpened, 'sharpened'))
+	list_to_process.append((supersharpened, 'supersharpened'))
+	list_to_process.append((bw, 'black_and_white'))
+	list_to_process.append((greyscale, 'greyscale'))
 
 	for pair in list_to_process:
 		image = pair[0]
 		name = pair[1]
 		print name + ' output:'
 		output =  pytesseract.image_to_string(image, 'eng', False, None).split('\n') #don't use config file
+		#print output
 		#output =  pytesseract.image_to_string(image, 'eng', False, 'config.txt').split('\n') #use config file 
 		processed_output = process_output(output)
 		print '-----------------------------'
@@ -112,8 +113,8 @@ def process_output(tesseract_output):
 				pass
 		i+=1
 
-	# for row in post_processed:
-	# 	print row
+	for row in post_processed:
+		print row
 	return post_processed
 
 
@@ -219,10 +220,10 @@ def randomly_select_20_output():
 
 def main():
 	start_time = time.time()
-	#image = Image.open("archive/pic1008.jpg") # open colour image
-	#process_all_transformations(image) 
+	image = Image.open("123.jpg") # open colour image
+	process_all_transformations(image) 
 	#batch_process()
-	randomly_select_20_output()
+	# randomly_select_20_output()
 	end_time = time.time()
 	print "Processing took",end_time - start_time, 'seconds'
 

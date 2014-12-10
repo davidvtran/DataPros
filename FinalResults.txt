@@ -28,4 +28,50 @@ Accuracy: 79.1891891892%
 
 138 of the 293 correct predictions are "Nothing" predictions
 
+------------------------------------------------------------------------------------------------------------------------------
+
+
+Running process_images:
+airbears2-10-142-157-138:DataPros davidtran$ python process_images.py
+original output:
+/:
+Madoryx plutonius
+
+HEX:Vex, Estac.
+Biol.Los Tuxtlas
+V1131/9-1933 JA
+Chemsak,at lites
+UC Balldcy
+EMEC
+719664
+-----------------------------
+sharpened output:
+MEX:Ver., Egtac.
+Biol.Los Tuxtlas
+VII51/9-1955
+JA
+Chemsak,at lites
+Berkeley
+EMEC
+719664
+
+Madoryx plutonius
+-----------------------------
+supersharpened output:
+-----------------------------
+black_and_white output:
+-----------------------------
+greyscale output:
+
+MadorY>5
+
+
+MEX:Ver. Estac
+Biol.Los Tuxtlas
+vz:11/9-1983 an
+Chemsak,at lites
+-----------------------------
+Processing took 4.73114609718 seconds
+
+------------------------------------------------------------------------------------------------------------------------------
 
