@@ -6,3 +6,4 @@ archive/
 black_and_white.jpg
 sharpened.jpg
 greyscale.jpg
+*.pkl

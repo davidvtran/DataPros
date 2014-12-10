@@ -16,7 +16,7 @@ def main():
 			
 			if len(f) != len(g):
 				x+=1
-				print i
+				print "Mismatch of number of lines in file #" + str(i)
 
 			for i in range(len(f)):
 				try:
@@ -29,7 +29,9 @@ def main():
 		except IOError:
 			continue
 
-	print x
+	print "Number of mismatched files: " + str(x)
+	print "Number of correct predictions: " + str(numCorrect)
+	print "Total number of characters: " + str(numTotal)
 	print "Accuracy: " + str(1.0 * numCorrect / numTotal * 100) + '%'
 
 

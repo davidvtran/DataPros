@@ -1,6 +1,10 @@
 import csv
 from Levenshtein import *
-import shelve
+import cPickle as pickle
+# try:
+#    import cPickle as pickle
+# except:
+#    import pickle
 
 def constructCollectorSet():
 	collectorSet = set()
@@ -16,6 +20,7 @@ def constructCountriesSet():
 		for country in countries:
 			if country != '':
 				countrySet.add(country.strip().lower())
+	countrySet.add("mex.")
 	return countrySet
 
 def constructUSCountiesSet():
@@ -47,7 +52,7 @@ def constructSpeciesSet():
 				specimenName += row_parts[i] + ' '
 				i+=1
 			speciesSet.add(specimenName.strip().lower())
-	print speciesSet
+	#print speciesSet
 	return speciesSet
 
 
@@ -83,10 +88,10 @@ class TextClassifier:
 					newDict[category].append(line)
 			self.resultsDict[path]=newDict
 		except IOError:
-			hi=0
+			return
 
 	def textClassify(self, text):
-		tempDict = self.categoryDict.copy()
+		tempDict = self.categoryDict#.copy()
 
 		#Classify Text into Name, Location, Collector, Collecting method, date, catalog_id
 		
@@ -111,7 +116,7 @@ class TextClassifier:
 			return 'Catalog_ID' #+ ', Fixed Output: ' + text.replace(' ', '')
 
 		#Check if text is a date
-		if(digitCount > 1):
+		if(digitCount > 1 and dashCount > 0):
 			for date in tempDict['Date']:
 				if date in text:
 					return 'Date'
@@ -120,7 +125,7 @@ class TextClassifier:
 		categoryWords = list()
 
 		categoryAnalysisDict = dict()
-		del tempDict['Date']
+		#del tempDict['Date']
 
 		for key in tempDict.keys():
 			targetSet = tempDict[key]
@@ -145,7 +150,19 @@ class TextClassifier:
 			return 'Nothing' #(Closest Word: ' + str(minDistKey[1]) + ')'
 
 	def returnSets(self):
-		pass
+		for key in self.categoryDict:
+			list_to_dump = self.categoryDict[key]
+			if key == 'USCounties':
+				pickle.dump(list_to_dump, open('modified_USCounties.pkl', 'a'))
+			elif key == 'Countries':
+				pickle.dump(list_to_dump, open('modified_Countries.pkl', 'a'))
+			elif key == 'Collection':
+				pickle.dump(list_to_dump, open('modified_Collections.pkl','a'))
+			elif key == 'Collector':
+				pickle.dump(list_to_dump, open('modified_Collectors.pkl', 'a'))
+			elif key == 'Species':
+				pickle.dump(list_to_dump, open('modified_Species.pkl', 'a'))
+
 
 
 
