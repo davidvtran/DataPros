@@ -1,29 +1,30 @@
 import csv
 from Levenshtein import *
+import shelve
 
 def constructCollectorSet():
-	formal = set()
+	collectorSet = set()
 	with open('tsv_files/collectors.tsv', 'rb') as collectors:
 		for collector in collectors:
 			if collector != '':
-				formal.add(collector.strip().lower())
-	return formal
+				collectorSet.add(collector.strip().lower())
+	return collectorSet
 
 def constructCountriesSet():
-	formal = set()
+	countrySet = set()
 	with open('tsv_files/countries.tsv','rb') as countries:
 		for country in countries:
 			if country != '':
-				formal.add(country.strip().lower())
-	return formal
+				countrySet.add(country.strip().lower())
+	return countrySet
 
 def constructUSCountiesSet():
-	formal = set()
+	countySet = set()
 	with open('tsv_files/uscounties.tsv','rb') as countries:
 		for country in countries:
 			if country != '':
-				formal.add(country.strip().lower())
-	return formal
+				countySet.add(country.strip().lower())
+	return countySet
 
 def constructDateSet():
 	dateSet = set()
@@ -31,10 +32,30 @@ def constructDateSet():
 		for date in dates:
 			dateSet.add(date.strip().lower())
 	return dateSet
+
+def constructSpeciesSet():
+	speciesSet = set()
+	with open('calbug.csv', 'rwb') as file_obj:
+		reader = csv.DictReader(file_obj, delimiter=',')
+		for row in reader:
+			#list_of_dicts.append(row) #copy data into memory
+			row = row['filename'].replace('.jpg','').strip().lower()
+			row_parts = row.split(' ')
+			i = 1
+			specimenName = ''
+			while i < len(row_parts):
+				specimenName += row_parts[i] + ' '
+				i+=1
+			speciesSet.add(specimenName.strip().lower())
+	print speciesSet
+	return speciesSet
+
+
+	
 class TextClassifier:
 
 	def __init__(self, categoryDict):
-		#categoryDict: 'Collector', 'Countries', 'USCounties', 'Date', 'Collection'
+		#categoryDict: 'Collector', 'Countries', 'USCounties', 'Date', 'Collection', 'Species'
 		self.categoryDict = categoryDict
 		self.resultsDict = dict()
 
@@ -122,6 +143,9 @@ class TextClassifier:
 
 		else:
 			return 'Nothing' #(Closest Word: ' + str(minDistKey[1]) + ')'
+
+	def returnSets(self):
+		pass
 
 
 

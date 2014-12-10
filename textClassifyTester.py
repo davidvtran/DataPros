@@ -10,6 +10,7 @@ categoryDict['Collector']= constructCollectorSet()
 categoryDict['Countries']= constructCountriesSet()
 categoryDict['USCounties']= constructUSCountiesSet()
 categoryDict['Date']= constructDateSet()
+categoryDict['Species']= constructSpeciesSet()
 collectionSet = set()
 collectionSet.add("uc berkeley")
 categoryDict['Collection']= collectionSet
