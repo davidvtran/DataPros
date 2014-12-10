@@ -153,15 +153,15 @@ class TextClassifier:
 		for key in self.categoryDict:
 			list_to_dump = self.categoryDict[key]
 			if key == 'USCounties':
-				pickle.dump(list_to_dump, open('modified_USCounties.pkl', 'a'))
+				pickle.dump(list_to_dump, open('modified_USCounties.pkl', 'w'))
 			elif key == 'Countries':
-				pickle.dump(list_to_dump, open('modified_Countries.pkl', 'a'))
+				pickle.dump(list_to_dump, open('modified_Countries.pkl', 'w'))
 			elif key == 'Collection':
-				pickle.dump(list_to_dump, open('modified_Collections.pkl','a'))
+				pickle.dump(list_to_dump, open('modified_Collections.pkl','w'))
 			elif key == 'Collector':
-				pickle.dump(list_to_dump, open('modified_Collectors.pkl', 'a'))
+				pickle.dump(list_to_dump, open('modified_Collectors.pkl', 'w'))
 			elif key == 'Species':
-				pickle.dump(list_to_dump, open('modified_Species.pkl', 'a'))
+				pickle.dump(list_to_dump, open('modified_Species.pkl', 'w'))
 
 
 
