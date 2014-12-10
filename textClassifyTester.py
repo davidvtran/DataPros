@@ -52,9 +52,9 @@ categoryDict['Date']= constructDateSet()
 
 txtC = TextClassifier(categoryDict)
 for i in range(1000,1050):
-	txtC.textClassifyImage('text_output/processed_'+str(i)+'.txt')
+	txtC.classifyImageText('text_output/processed_'+str(i)+'.txt', i)
 txtC.printResultsDict()
-txtC.returnSets()
+txtC.dumpSetsToDisk()
 	
 	
 

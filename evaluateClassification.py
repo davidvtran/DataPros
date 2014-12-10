@@ -1,3 +1,5 @@
+
+
 def main():
 	numCorrect = 0
 	numTotal = 0
@@ -15,7 +17,7 @@ def main():
 
 			for i in range(len(f)):
 				try:
-					if f[i] == g[i]:
+					if f[i].strip().lower() == g[i].strip().lower():
 						numCorrect +=1
 					numTotal += 1
 				except:
@@ -26,7 +28,7 @@ def main():
 
 print "Number of mismatched files: " + str(x)
 print "Number of correct predictions: " + str(numCorrect)
-print "Total number of characters: " + str(numTotal)
+print "Total number of predictions: " + str(numTotal)
 print "Accuracy: " + str(1.0 * numCorrect / numTotal * 100) + '%'
 
 

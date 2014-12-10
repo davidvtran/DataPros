@@ -68,13 +68,13 @@ class TextClassifier:
 		for key in self.resultsDict.keys():
 			print str(key) + ": " + str(self.resultsDict[key])
 
-	def textClassifyImage(self, path):
+	def classifyImageText(self, path,i):
 		try:
 			f = open(path, 'r')
 			newDict = dict()
 			for line in f:
 				line = line.strip()
-				category = self.textClassify(line)
+				category = self.classifyText(line)
 				if category == 'Catalog_ID':
 					line = line.replace(' ','')
 				newList=list()
@@ -84,10 +84,15 @@ class TextClassifier:
 				else:
 					newDict[category].append(line)
 			self.resultsDict[path]=newDict
+
+			g =  open('classification_output/' + str(i) + '.txt','w')
+			for row in temp:
+				g.write(row + '\n')	
+			g.close()
 		except IOError:
 			return
 
-	def textClassify(self, text):
+	def classifyText(self, text):
 		tempDict = self.categoryDict#.copy()
 
 		#Classify Text into Name, Location, Collector, Collecting method, date, catalog_id
@@ -141,12 +146,14 @@ class TextClassifier:
 		#print 'Edit Distance: ' + str(minDistVal) + ' | Ratio: ' + str(ratio(minDistKey[1], text))
 		if(minDistVal < 6) and ratio(minDistKey[1], text) > .5:
 			#There is a category for this text
-			return str(minDistKey[0]) #+ ' (Closest Word: ' + str(minDistKey[1]) + ')'
+			classification =  str(minDistKey[0]) #+ ' (Closest Word: ' + str(minDistKey[1]) + ')'
 
 		else:
-			return 'Nothing' #(Closest Word: ' + str(minDistKey[1]) + ')'
+			classification = 'Nothing' #(Closest Word: ' + str(minDistKey[1]) + ')'
 
-	def returnSets(self):
+		return classification
+
+	def dumpSetsToDisk(self):
 		for key in self.categoryDict:
 			list_to_dump = self.categoryDict[key]
 			if key == 'USCounties':
