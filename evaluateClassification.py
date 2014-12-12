@@ -126,46 +126,26 @@ def main():
 			continue
 
 	print "Number of mismatched lines: " + str(x)
-	print "Number of correct predictions: " + str(numCorrect)
-	print "Total number of predictions: " + str(numTotal)
-	print "Accuracy: " + str(1.0 * numCorrect / numTotal * 100) + '%'
-	print ''
-
-	print "Accuracy by category:"
-	print "Date Accuracy: " + str(1.0 * dateCorrect / dateCount * 100) + '%'
-	print "Species Accuracy: " + str(1.0 * speciesCorrect / speciesCount * 100) + '%'
-	print "Location Accuracy: " + str(1.0 * locationCorrect / locationCount * 100) + '%'
-	print "Collector Accuracy: " + str(1.0 * collectorCorrect / collectorCount * 100) + '%'
-	print "Collection Accuracy: " + str(1.0 * collectionCorrect / collectionCount * 100) + '%'
-	print "CatalogId Accuracy: " + str(1.0 * catalogIdCorrect / catalogIdCount * 100) + '%'
-	print "Nothing Accuracy: " + str(1.0 * nothingCorrect / nothingCount * 100) + '%'
+	
 
 	print 'dateCorrect: ' + str(dateCorrect)
 	print "dateCount: " + str(dateCount)
 	print ''
-
 	print 'speciesCorrect: ' + str(speciesCorrect)
 	print 'speciesCount: ' + str(speciesCount)
 	print ''
-
 	print 'locationCorrect: ' + str(locationCorrect)
 	print 'locationCount: ' + str(locationCount)
 	print ''
-
 	print 'collectorCorrect ' + str(collectorCorrect)
 	print 'collectorCount: ' + str(collectorCount)
 	print ''
-
 	print 'collectionCorrect: ' + str(collectionCorrect)
 	print 'collectionCount: ' + str(collectionCount)
 	print ''
-
-
 	print 'catalogIdCorrect: ' + str(catalogIdCorrect)
 	print "catalogIdCount: " + str(catalogIdCount)
-
 	print ''
-
 
 	print 'dateFP: ' + str(dateFP)
 	print 'speciesFP: ' + str(speciesFP)
@@ -173,11 +153,39 @@ def main():
 	print 'collectorFP: ' + str(collectorFP)
 	print 'collectionFP: ' + str(collectionFP)	
 	print 'catalogIdFP: ' + str(catalogIdFP)
-
 	print ''
+
 	print 'nothingCorrect: ' + str(nothingCorrect)
 	print "NothingCount: " + str(nothingCount)
 	print 'NothingFP: ' + str(nothingFP)
+
+	print '\n\n\nFinal Results:'
+	print "Number of correct predictions: " + str(numCorrect)
+	print "Total number of predictions: " + str(numTotal)
+	print "Accuracy: " + str(1.0 * numCorrect / numTotal * 100) + '%'
+	print ''
+
+	
+	print "Precision by category:"
+	print "Date Precision: " + str(1.0 * dateCorrect / (dateCorrect + dateFP) * 100) + '%'
+	print "Species Precision: " + str(1.0 * speciesCorrect / (speciesCorrect + speciesFP) * 100) + '%'
+	print "Location Precision: " + str(1.0 * locationCorrect / (locationCorrect + locationFP) * 100) + '%'
+	print "Collector Precision: " + str(1.0 * collectorCorrect / (collectorCorrect + collectorFP) * 100) + '%'
+	print "Collection Precision: " + str(1.0 * collectionCorrect / (collectionCorrect + collectionFP) * 100) + '%'
+	print "CatalogId Precision: " + str(1.0 * catalogIdCorrect / (catalogIdCorrect + catalogIdFP) * 100) + '%'
+	print "Nothing Precision: " + str(1.0 * nothingCorrect / (nothingCorrect + nothingFP) * 100) + '%'
+	print ''
+
+	print "Recall by category:"
+	print "Date Recall: " + str(1.0 * dateCorrect / dateCount * 100) + '%'
+	print "Species Recall: " + str(1.0 * speciesCorrect / speciesCount * 100) + '%'
+	print "Location Recall: " + str(1.0 * locationCorrect / locationCount * 100) + '%'
+	print "Collector Recall: " + str(1.0 * collectorCorrect / collectorCount * 100) + '%'
+	print "Collection Recall: " + str(1.0 * collectionCorrect / collectionCount * 100) + '%'
+	print "CatalogId Recall: " + str(1.0 * catalogIdCorrect / catalogIdCount * 100) + '%'
+	print "Nothing Recall: " + str(1.0 * nothingCorrect / nothingCount * 100) + '%'
+	
+
 
 
 if __name__ == '__main__':
